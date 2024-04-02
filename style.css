@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    width: 750px;
+    height: 100vh;
+    background: red;
+}
+.player{
+    width: 150px;
+    height: 150px;
+    background:blue;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.score{
+    color: white;
+    font-size:30px;
+    font-family: monospace;
+}
+.btn1{
+    width: 150px;
+    height: 25px;
+    background: pink;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 700px;
+    right: 400px;
+
+}
